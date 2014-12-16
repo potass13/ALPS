@@ -1,0 +1,23 @@
+$ alpspython binning.py -h
+usage: binning.py [-h] [--fig] [-y Y] [-l LABEL] [--debug] [--lab] -p PREFIX
+                  path_drc_xml
+
+Binning analiysis used for XML files produced by ALPS application.
+
+positional arguments:
+  path_drc_xml          Directly path where XML files produced by ALPS are
+                        included.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --fig                 Figure is outputted by matplotlib if this flag is set.
+                        (defalt: false)
+  -y Y                  The error of physical quantity you want to check
+                        whether the data is converged or not. (default:
+                        Susceptibility)
+  -l LABEL, --label LABEL
+                        The label of the data. (default: task number)
+  --debug               debug mode if this flag is set. (default: false)
+  --lab                 Lab PC ONLY. (default: false)
+  -p PREFIX, --prefix PREFIX
+                        The prefix of XML files. (Required)

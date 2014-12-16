@@ -2,7 +2,7 @@
 #
 # name : binning.py
 # usage : binnig analysis for ALPS
-# edit : potass 
+# edit : potass
 # Last Update : 2014-10-18
 #
 ##########################################################

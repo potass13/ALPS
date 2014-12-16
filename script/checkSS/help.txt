@@ -1,0 +1,19 @@
+usage: checkSS.py [-h] [-y Y] [--debug] [-l LABEL] [--lab] -p PREFIX
+                  path_drc_xml
+
+Use pyalps.checkSteadyState() by ALPS application.
+
+positional arguments:
+  path_drc_xml          Directly path where XML files produced by ALPS are
+                        included.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -y Y                  The error of physical quantity you want to check.
+                        (default: Susceptibility)
+  --debug               debug mode if this flag is set. (default: false)
+  -l LABEL, --label LABEL
+                        The label of the data. (default: T)
+  --lab                 Lab PC ONLY. (default: false)
+  -p PREFIX, --prefix PREFIX
+                        The prefix of XML files. (Required)
